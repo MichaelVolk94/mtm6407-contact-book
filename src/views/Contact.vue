@@ -45,5 +45,22 @@ const deleteContact = () => {
 </template>
 
 <style scoped>
+.single-contact {
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
 
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+}
 </style>

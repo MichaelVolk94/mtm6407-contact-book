@@ -71,5 +71,16 @@ const updateContact = () => {
 </template>
 
 <style scoped>
+label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
 
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
 </style>
